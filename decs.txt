@@ -1,0 +1,189 @@
+GIT – COMPLETE NOTES
+
+1. WHAT IS GIT?
+
+Git is a free and open-source Version Control System (VCS) used by developers to track changes in source code.
+
+It helps developers save different versions of projects, manage code, collaborate with other developers, and recover previous versions whenever required.
+
+2. WHY DO WE USE GIT?
+
+1. To track changes in source code.
+2. To save different versions of a project.
+3. To recover deleted or modified files.
+4. To work with multiple developers.
+5. To manage project development.
+6. To create separate branches for new features.
+7. To maintain project history.
+
+3. WHAT IS GITHUB?
+
+GitHub is an online platform used to store, manage, and share Git repositories.
+
+DIFFERENCE BETWEEN GIT AND GITHUB
+
+Git:
+- Git is a version control tool.
+- It works locally on a computer.
+- It tracks changes in code.
+- It manages project versions.
+
+GitHub:
+- GitHub is an online hosting platform.
+- It stores repositories online.
+- It allows developers to share projects.
+- It supports team collaboration.
+
+4. IMPORTANT GIT TERMINOLOGIES
+
+1. Repository: A project folder managed by Git.
+2. Commit: A saved snapshot of changes.
+3. Branch: A separate development line.
+4. Merge: Combining two branches.
+5. Clone: Copying a remote repository.
+6. Push: Uploading local changes to GitHub.
+7. Pull: Downloading and integrating remote changes.
+8. Fork: Creating your own copy of another user's repository.
+9. Staging: Preparing changes before committing.
+
+5. IMPORTANT GIT COMMANDS
+
+git --version
+Used to check the Git version.
+
+git init
+Used to initialize a Git repository.
+
+git status
+Used to check the status of files.
+
+git add .
+Used to add all changes to the staging area.
+
+git commit -m "message"
+Used to save changes in the repository.
+
+git log
+Used to view commit history.
+
+git branch
+Used to display available branches.
+
+git checkout branch_name
+Used to switch branches.
+
+git merge branch_name
+Used to merge another branch.
+
+git clone URL
+Used to copy a remote repository.
+
+git push
+Used to upload changes to a remote repository.
+
+git pull
+Used to download and integrate remote changes.
+
+6. GIT WORKFLOW
+
+Git generally follows four main stages:
+
+1. Working Directory:
+   Create or modify project files.
+
+2. Staging Area:
+   Select changes using the git add command.
+
+3. Local Repository:
+   Save changes using the git commit command.
+
+4. Remote Repository:
+   Upload changes using the git push command.
+
+7. PRACTICAL EXAMPLE OF GIT
+
+Suppose you have created a project named MyProject.
+
+Step 1: Initialize Git.
+
+git init
+
+Step 2: Check file status.
+
+git status
+
+Step 3: Add files.
+
+git add .
+
+Step 4: Commit changes.
+
+git commit -m "First commit"
+
+Step 5: Connect GitHub repository.
+
+git remote add origin YOUR_REPOSITORY_URL
+
+Step 6: Push code to GitHub.
+
+git push -u origin main
+
+8. ADVANTAGES OF GIT
+
+1. Free and open-source.
+2. Fast and lightweight.
+3. Tracks every code change.
+4. Supports teamwork.
+5. Helps recover previous versions.
+6. Supports multiple branches.
+7. Helps manage large software projects.
+
+9. GIT INTERVIEW QUESTIONS
+
+Q1. What is Git?
+
+Answer: Git is a distributed version control system used to track changes in source code.
+
+Q2. What is GitHub?
+
+Answer: GitHub is an online platform used to host Git repositories and collaborate on projects.
+
+Q3. What is a Repository?
+
+Answer: A repository is a storage location that contains project files and their version history.
+
+Q4. What is a Commit?
+
+Answer: A commit is a saved snapshot of changes in a Git repository.
+
+Q5. What is the difference between Git Pull and Git Push?
+
+Answer:
+Push: Uploads local changes to a remote repository.
+Pull: Downloads and integrates changes from a remote repository.
+
+Q6. What is Git Clone?
+
+Answer: Git Clone creates a local copy of an existing remote repository.
+
+Q7. What is Git Branch?
+
+Answer: A branch is a separate line of development used to work on new features without affecting the main branch.
+
+Q8. What is Git Merge?
+
+Answer: Git Merge combines changes from different branches.
+
+10. QUICK REVISION
+
+Five important Git commands:
+
+git init
+git add .
+git commit -m "message"
+git push
+git pull
+
+CONCLUSION:
+
+Git is an important tool for software developers and data professionals. It helps manage projects, track changes, maintain code history, and collaborate with other developers. Learning Git and GitHub is useful for building professional projects and portfolios.
