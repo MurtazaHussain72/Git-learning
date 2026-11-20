@@ -1,0 +1,92 @@
+BASIC GIT COMMANDS – NOTES
+
+Git commands are used to manage projects, track changes, save versions, and upload code to GitHub.
+
+1. BASIC GIT COMMANDS
+
+1. git --version
+   Used to check the Git version.
+
+2. git config --global user.name "Name"
+   Used to set your Git username.
+
+3. git config --global user.email "email"
+   Used to set your email address.
+
+4. git init
+   Used to initialize a new Git repository.
+
+5. git status
+   Used to check the status of files.
+
+6. git add filename
+   Used to add a specific file to the staging area.
+
+7. git add .
+   Used to add all modified and untracked files to staging.
+
+8. git commit -m "message"
+   Used to save changes in the repository.
+
+9. git log
+   Used to display commit history.
+
+10. git diff
+    Used to show changes in files.
+
+2. GIT BRANCH COMMANDS
+
+1. git branch
+   Used to display all branches.
+
+2. git branch branch_name
+   Used to create a new branch.
+
+3. git switch branch_name
+   Used to switch to another branch.
+
+4. git switch -c branch_name
+   Used to create and switch to a new branch.
+
+5. git merge branch_name
+   Used to merge another branch.
+
+6. git branch -d branch_name
+   Used to delete a branch.
+
+3. GITHUB COMMANDS
+
+1. git remote -v
+   Used to display remote repositories.
+
+2. git remote add origin URL
+   Used to connect a GitHub repository.
+
+3. git clone URL
+   Used to download a remote repository.
+
+4. git push
+   Used to upload local changes to GitHub.
+
+5. git pull
+   Used to download and integrate remote changes.
+
+6. git fetch
+   Used to download remote updates without merging them.
+
+4. FILE MANAGEMENT COMMANDS
+
+1. git rm filename
+   Used to remove a tracked file.
+
+2. git mv old_name new_name
+   Used to rename or move a tracked file.
+
+3. git restore filename
+   Used to discard unstaged changes.
+
+4. git restore --staged filename
+   Used to remove a file from the staging area.
+
+5. git reset --soft HEAD~1
+   Used to undo the latest commit while keeping changes
